@@ -17,4 +17,16 @@ public class FindMaximum {
             return no3;
         }
     }
+
+    public static double findMaxFloat(double fNo1, double fNo2, double fNo3) {
+        double maxFloat= 0;
+        if (fNo1 > fNo2 && fNo1 > fNo3) {
+            return maxFloat = fNo1;
+        } else if (fNo2 > fNo1 && fNo2 > fNo3) {
+            return maxFloat = fNo2;
+        } else {
+            return maxFloat = fNo3;
+        }
+
+    }
 }
