@@ -18,6 +18,26 @@ public class FindMaximum {
         }
     }
 
+
+    public static int findMax4Integer(int a, int b, int c, int d) {
+
+        int max4Int =0;
+        if (a>b && a>c && a>d){
+            return a;
+        }
+        else if (b>a && b>c && b>d){
+            return b;
+        }
+        else if (c>a && c>b && c>d){
+            return c;
+        }else {
+            return d;
+        }
+
+
+    }
+
+
     public static double findMaxFloat(double fNo1, double fNo2, double fNo3) {
         double maxFloat= 0;
         if (fNo1 > fNo2 && fNo1 > fNo3) {
@@ -42,4 +62,7 @@ public class FindMaximum {
 
 
     }
+
+
 }
+
