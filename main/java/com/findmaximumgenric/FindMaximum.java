@@ -42,4 +42,23 @@ public class FindMaximum {
 
 
     }
+
+    public static int findMax4Integer(int a, int b, int c, int d) {
+        int max4int = 0;
+        if(a>b && a>c && a>d){
+            return a;
+        }
+        else if (b>a && b>c && b>d){
+            return b;
+        }
+        else if (c>b && c>a && c>d){
+            return c;
+        }
+        else {
+            return d;
+        }
+
+
+
+    }
 }
